@@ -31,7 +31,7 @@
 **TOOLS NEEDED:**
 
 1. [CSV to  RDF converters](https://www.w3.org/wiki/ConverterToRdf)
-2. Apache   Jena    Fuseki
+2. [Apache   Jena    Fuseki](https://jena.apache.org/documentation/fuseki2/)
 3. [Google  Charts  APIs](https://developers.google.com/chart/)
 4. SPARQL   Queries (for    data    manipulation)
 5. Python, Flask, SPARQLWrapper
