@@ -11,6 +11,7 @@
 
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel=icon href="{url_for('static',filename='img/favicon.ico')}}">
 </head>
 <body>
 
@@ -47,7 +48,7 @@
           <span class='tagline'>United States</span>
           <h4>Google Graphs Visualization</h4>
 
-          <div id="regions_div" style="width: 900px; height: 500px;"></div>
+          <div id="regions_div" style="display: none; width: 900px; height: 500px;"></div>
 
           <div class='readmore'>
             <a href='#'>Next<span class='fa fa-chevron-right'></span></a>
@@ -80,6 +81,8 @@
 </section>
 </div>
 </div>
+
+"{{ data }}"
 
 
 

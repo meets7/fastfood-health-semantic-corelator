@@ -1,11 +1,15 @@
 from flask import Flask, render_template
+import sparql
+
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    data = sparql.get_query_results()
+
+    return render_template('index.html', data=data)
 
 
 @app.errorhandler(404)
