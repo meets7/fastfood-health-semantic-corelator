@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:xsd2="http://www.w3.org/TR/xmlschema-2/#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:pmlp="http://inference-web.org/2.0/pml-provenance.owl#"
+	xmlns:pmlj="http://inference-web.org/2.0/pml-justification.owl#"
+	xmlns:tw_service="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/tw-rpi-edu/service/"
+	xmlns:tw_converter="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/tw-rpi-edu/service/csv2rdf4lod/version/2015-Apr-27/"
+	xmlns:conversion="http://purl.org/twc/vocab/conversion/"
+	xmlns:ov="http://open.vocab.org/terms/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:doap="http://usefulinc.com/ns/doap#"
+	xmlns:scovo="http://purl.org/NET/scovo#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:vann="http://purl.org/vocab/vann/"
+	xmlns:frbrcore="http://purl.org/vocab/frbr/core#"
+	xmlns:coin="http://purl.org/court/def/2009/coin#"
+	xmlns:AshishMAC="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/"
+	xmlns:Users_vocab="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/vocab/"
+	xmlns:base_vocab="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/"
+	xmlns:AshishMAC_vocab="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/"
+	xmlns:raw="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/"
+	xmlns="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/params/raw/"
+	xmlns:sioc="http://rdfs.org/sioc/ns#">
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/sumlev">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvCol>
+	<ov:csvHeader>SUMLEV</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>SUMLEV</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/sumlev"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/region">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ov:csvCol>
+	<ov:csvHeader>REGION</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>REGION</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/region"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/division">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ov:csvCol>
+	<ov:csvHeader>DIVISION</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>DIVISION</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/division"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/state">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ov:csvCol>
+	<ov:csvHeader>STATE</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>STATE</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/state"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/name">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ov:csvCol>
+	<ov:csvHeader>NAME</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>NAME</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/name"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/population_estimate2016">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ov:csvCol>
+	<ov:csvHeader>POPULATION_ESTIMATE2016</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>POPULATION_ESTIMATE2016</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/population_estimate2016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/population_est18plus2016">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ov:csvCol>
+	<ov:csvHeader>POPULATION_EST18PLUS2016</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>POPULATION_EST18PLUS2016</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/population_est18plus2016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/pcnt_population_est18plus">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<ov:csvRow rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ov:csvRow>
+	<ov:csvCol rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ov:csvCol>
+	<ov:csvHeader>PCNT_POPULATION_EST18PLUS</ov:csvHeader>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/conversion/raw"/>
+	<rdfs:label>PCNT_POPULATION_EST18PLUS</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<conversion:enhances rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/vocab/raw/pcnt_population_est18plus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_2">
+	<raw:sumlev>010</raw:sumlev>
+	<raw:region>0</raw:region>
+	<raw:division>0</raw:division>
+	<raw:state>00</raw:state>
+	<raw:name>United States</raw:name>
+	<raw:population_estimate2016>323127513</raw:population_estimate2016>
+	<raw:population_est18plus2016>249485228</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_3">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>6</raw:division>
+	<raw:state>01</raw:state>
+	<raw:name>Alabama</raw:name>
+	<raw:population_estimate2016>4863300</raw:population_estimate2016>
+	<raw:population_est18plus2016>3766477</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_4">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>9</raw:division>
+	<raw:state>02</raw:state>
+	<raw:name>Alaska</raw:name>
+	<raw:population_estimate2016>741894</raw:population_estimate2016>
+	<raw:population_est18plus2016>554567</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>74.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_5">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>04</raw:state>
+	<raw:name>Arizona</raw:name>
+	<raw:population_estimate2016>6931071</raw:population_estimate2016>
+	<raw:population_est18plus2016>5299579</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_6">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>7</raw:division>
+	<raw:state>05</raw:state>
+	<raw:name>Arkansas</raw:name>
+	<raw:population_estimate2016>2988248</raw:population_estimate2016>
+	<raw:population_est18plus2016>2283195</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_7">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>9</raw:division>
+	<raw:state>06</raw:state>
+	<raw:name>California</raw:name>
+	<raw:population_estimate2016>39250017</raw:population_estimate2016>
+	<raw:population_est18plus2016>30157154</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_8">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>08</raw:state>
+	<raw:name>Colorado</raw:name>
+	<raw:population_estimate2016>5540545</raw:population_estimate2016>
+	<raw:population_est18plus2016>4279173</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_9">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>09</raw:state>
+	<raw:name>Connecticut</raw:name>
+	<raw:population_estimate2016>3576452</raw:population_estimate2016>
+	<raw:population_est18plus2016>2823158</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_10">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>10</raw:state>
+	<raw:name>Delaware</raw:name>
+	<raw:population_estimate2016>952065</raw:population_estimate2016>
+	<raw:population_est18plus2016>747791</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_11">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>11</raw:state>
+	<raw:name>District of Columbia</raw:name>
+	<raw:population_estimate2016>681170</raw:population_estimate2016>
+	<raw:population_est18plus2016>560277</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>82.3</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_12">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>12</raw:state>
+	<raw:name>Florida</raw:name>
+	<raw:population_estimate2016>20612439</raw:population_estimate2016>
+	<raw:population_est18plus2016>16465727</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>79.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_13">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>13</raw:state>
+	<raw:name>Georgia</raw:name>
+	<raw:population_estimate2016>10310371</raw:population_estimate2016>
+	<raw:population_est18plus2016>7798827</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.6</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_14">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>9</raw:division>
+	<raw:state>15</raw:state>
+	<raw:name>Hawaii</raw:name>
+	<raw:population_estimate2016>1428557</raw:population_estimate2016>
+	<raw:population_est18plus2016>1120541</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_15">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>16</raw:state>
+	<raw:name>Idaho</raw:name>
+	<raw:population_estimate2016>1683140</raw:population_estimate2016>
+	<raw:population_est18plus2016>1245967</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>74</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_16">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>3</raw:division>
+	<raw:state>17</raw:state>
+	<raw:name>Illinois</raw:name>
+	<raw:population_estimate2016>12801539</raw:population_estimate2016>
+	<raw:population_est18plus2016>9875430</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.1</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_17">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>3</raw:division>
+	<raw:state>18</raw:state>
+	<raw:name>Indiana</raw:name>
+	<raw:population_estimate2016>6633053</raw:population_estimate2016>
+	<raw:population_est18plus2016>5057601</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_18">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>19</raw:state>
+	<raw:name>Iowa</raw:name>
+	<raw:population_estimate2016>3134693</raw:population_estimate2016>
+	<raw:population_est18plus2016>2403962</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.7</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_19">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>20</raw:state>
+	<raw:name>Kansas</raw:name>
+	<raw:population_estimate2016>2907289</raw:population_estimate2016>
+	<raw:population_est18plus2016>2192338</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_20">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>6</raw:division>
+	<raw:state>21</raw:state>
+	<raw:name>Kentucky</raw:name>
+	<raw:population_estimate2016>4436974</raw:population_estimate2016>
+	<raw:population_est18plus2016>3426345</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_21">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>7</raw:division>
+	<raw:state>22</raw:state>
+	<raw:name>Louisiana</raw:name>
+	<raw:population_estimate2016>4681666</raw:population_estimate2016>
+	<raw:population_est18plus2016>3567717</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_22">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>23</raw:state>
+	<raw:name>Maine</raw:name>
+	<raw:population_estimate2016>1331479</raw:population_estimate2016>
+	<raw:population_est18plus2016>1076765</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>80.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_23">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>24</raw:state>
+	<raw:name>Maryland</raw:name>
+	<raw:population_estimate2016>6016447</raw:population_estimate2016>
+	<raw:population_est18plus2016>4667719</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.6</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_24">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>25</raw:state>
+	<raw:name>Massachusetts</raw:name>
+	<raw:population_estimate2016>6811779</raw:population_estimate2016>
+	<raw:population_est18plus2016>5433677</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>79.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_25">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>3</raw:division>
+	<raw:state>26</raw:state>
+	<raw:name>Michigan</raw:name>
+	<raw:population_estimate2016>9928300</raw:population_estimate2016>
+	<raw:population_est18plus2016>7737243</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_26">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>27</raw:state>
+	<raw:name>Minnesota</raw:name>
+	<raw:population_estimate2016>5519952</raw:population_estimate2016>
+	<raw:population_est18plus2016>4231619</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.7</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_27">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>6</raw:division>
+	<raw:state>28</raw:state>
+	<raw:name>Mississippi</raw:name>
+	<raw:population_estimate2016>2988726</raw:population_estimate2016>
+	<raw:population_est18plus2016>2267438</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_28">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>29</raw:state>
+	<raw:name>Missouri</raw:name>
+	<raw:population_estimate2016>6093000</raw:population_estimate2016>
+	<raw:population_est18plus2016>4706137</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_29">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>30</raw:state>
+	<raw:name>Montana</raw:name>
+	<raw:population_estimate2016>1042520</raw:population_estimate2016>
+	<raw:population_est18plus2016>814909</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_30">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>31</raw:state>
+	<raw:name>Nebraska</raw:name>
+	<raw:population_estimate2016>1907116</raw:population_estimate2016>
+	<raw:population_est18plus2016>1433791</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.2</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_31">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>32</raw:state>
+	<raw:name>Nevada</raw:name>
+	<raw:population_estimate2016>2940058</raw:population_estimate2016>
+	<raw:population_est18plus2016>2262631</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_32">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>33</raw:state>
+	<raw:name>New Hampshire</raw:name>
+	<raw:population_estimate2016>1334795</raw:population_estimate2016>
+	<raw:population_est18plus2016>1074207</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>80.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_33">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>2</raw:division>
+	<raw:state>34</raw:state>
+	<raw:name>New Jersey</raw:name>
+	<raw:population_estimate2016>8944469</raw:population_estimate2016>
+	<raw:population_est18plus2016>6959717</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_34">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>35</raw:state>
+	<raw:name>New Mexico</raw:name>
+	<raw:population_estimate2016>2081015</raw:population_estimate2016>
+	<raw:population_est18plus2016>1590352</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_35">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>2</raw:division>
+	<raw:state>36</raw:state>
+	<raw:name>New York</raw:name>
+	<raw:population_estimate2016>19745289</raw:population_estimate2016>
+	<raw:population_est18plus2016>15564730</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_36">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>37</raw:state>
+	<raw:name>North Carolina</raw:name>
+	<raw:population_estimate2016>10146788</raw:population_estimate2016>
+	<raw:population_est18plus2016>7848068</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.3</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_37">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>38</raw:state>
+	<raw:name>North Dakota</raw:name>
+	<raw:population_estimate2016>757952</raw:population_estimate2016>
+	<raw:population_est18plus2016>581641</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.7</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_38">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>3</raw:division>
+	<raw:state>39</raw:state>
+	<raw:name>Ohio</raw:name>
+	<raw:population_estimate2016>11614373</raw:population_estimate2016>
+	<raw:population_est18plus2016>9002201</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_39">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>7</raw:division>
+	<raw:state>40</raw:state>
+	<raw:name>Oklahoma</raw:name>
+	<raw:population_estimate2016>3923561</raw:population_estimate2016>
+	<raw:population_est18plus2016>2961933</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_40">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>9</raw:division>
+	<raw:state>41</raw:state>
+	<raw:name>Oregon</raw:name>
+	<raw:population_estimate2016>4093465</raw:population_estimate2016>
+	<raw:population_est18plus2016>3224738</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>78.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_41">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>2</raw:division>
+	<raw:state>42</raw:state>
+	<raw:name>Pennsylvania</raw:name>
+	<raw:population_estimate2016>12784227</raw:population_estimate2016>
+	<raw:population_est18plus2016>10109422</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>79.1</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_42">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>44</raw:state>
+	<raw:name>Rhode Island</raw:name>
+	<raw:population_estimate2016>1056426</raw:population_estimate2016>
+	<raw:population_est18plus2016>848045</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>80.3</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_43">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>45</raw:state>
+	<raw:name>South Carolina</raw:name>
+	<raw:population_estimate2016>4961119</raw:population_estimate2016>
+	<raw:population_est18plus2016>3863498</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.9</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_44">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>4</raw:division>
+	<raw:state>46</raw:state>
+	<raw:name>South Dakota</raw:name>
+	<raw:population_estimate2016>865454</raw:population_estimate2016>
+	<raw:population_est18plus2016>652167</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>75.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_45">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>6</raw:division>
+	<raw:state>47</raw:state>
+	<raw:name>Tennessee</raw:name>
+	<raw:population_estimate2016>6651194</raw:population_estimate2016>
+	<raw:population_est18plus2016>5149399</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.4</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_46">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>7</raw:division>
+	<raw:state>48</raw:state>
+	<raw:name>Texas</raw:name>
+	<raw:population_estimate2016>27862596</raw:population_estimate2016>
+	<raw:population_est18plus2016>20568009</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>73.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_47">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>49</raw:state>
+	<raw:name>Utah</raw:name>
+	<raw:population_estimate2016>3051217</raw:population_estimate2016>
+	<raw:population_est18plus2016>2129444</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>69.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_48">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>1</raw:region>
+	<raw:division>1</raw:division>
+	<raw:state>50</raw:state>
+	<raw:name>Vermont</raw:name>
+	<raw:population_estimate2016>624594</raw:population_estimate2016>
+	<raw:population_est18plus2016>506066</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>81</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_49">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>51</raw:state>
+	<raw:name>Virginia</raw:name>
+	<raw:population_estimate2016>8411808</raw:population_estimate2016>
+	<raw:population_est18plus2016>6541685</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.8</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_50">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>9</raw:division>
+	<raw:state>53</raw:state>
+	<raw:name>Washington</raw:name>
+	<raw:population_estimate2016>7288000</raw:population_estimate2016>
+	<raw:population_est18plus2016>5658502</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.6</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_51">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>3</raw:region>
+	<raw:division>5</raw:division>
+	<raw:state>54</raw:state>
+	<raw:name>West Virginia</raw:name>
+	<raw:population_estimate2016>1831102</raw:population_estimate2016>
+	<raw:population_est18plus2016>1456034</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>79.5</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_52">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>2</raw:region>
+	<raw:division>3</raw:division>
+	<raw:state>55</raw:state>
+	<raw:name>Wisconsin</raw:name>
+	<raw:population_estimate2016>5778708</raw:population_estimate2016>
+	<raw:population_est18plus2016>4491015</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>77.7</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_53">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>4</raw:region>
+	<raw:division>8</raw:division>
+	<raw:state>56</raw:state>
+	<raw:name>Wyoming</raw:name>
+	<raw:population_estimate2016>585501</raw:population_estimate2016>
+	<raw:population_est18plus2016>446600</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>76.3</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation/thing_54">
+	<raw:sumlev>040</raw:sumlev>
+	<raw:region>X</raw:region>
+	<raw:division>X</raw:division>
+	<raw:state>72</raw:state>
+	<raw:name>Puerto Rico Commonwealth</raw:name>
+	<raw:population_estimate2016>3411307</raw:population_estimate2016>
+	<raw:population_est18plus2016>2715435</raw:population_est18plus2016>
+	<raw:pcnt_population_est18plus>79.6</raw:pcnt_population_est18plus>
+	<dcterms:isReferencedBy rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+	<void:inDataset rdf:resource="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Users/dataset/AshishMAC/version/csv2rdf4lod-automation"/>
+</rdf:Description>
+
+</rdf:RDF>
