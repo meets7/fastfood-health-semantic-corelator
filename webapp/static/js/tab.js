@@ -132,6 +132,7 @@ function drawAxisTickColors() {
 
             var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
             chart.draw(data, options);
+            $('#chart_div').css('background-color','white');
         }
     });
  
