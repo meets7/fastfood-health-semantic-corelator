@@ -71,7 +71,11 @@ function drawGoogleChart(response, regId){
 }
 
 function drawBarGraph(){
-google.charts.load('current', {packages: ['corechart', 'bar']});
+
+google.charts.load('current', {
+  packages: ['corechart', 'bar'],
+  'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+});
 google.charts.setOnLoadCallback(drawAxisTickColors);
 
 function drawAxisTickColors() {
