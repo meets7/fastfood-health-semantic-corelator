@@ -2,13 +2,14 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import queries
 
 
-def get_query_results():
-    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+def get_query_results(queryname):
+    sparql = SPARQLWrapper(
+        "https://semantic.localtunnel.me/SemanticProject/sparql")
     sparql.setReturnFormat(JSON)
 
-    query = queries.getCountries
+    query = getattr(queries, queryname)
 
-    sparql.setQuery(query)  # the previous query as a literal string
+    sparql.setQuery(query)
 
     return sparql.query().convert()
 

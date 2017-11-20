@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/bg.jpg");
+  /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/bg.jpg");*/
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -20,25 +20,21 @@ body {
 }
 
 #tabs {
-  margin: 5em auto;
-  
+  margin: 5em auto;  
 }
+
 #tabs ul {
   margin: 0;
   padding: 0;
   height: 80px;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
 }
-#tabs ul::after {
-  clear: both;
-  content: "";
-  display: table;
-}
+
 #tabs ul li {
   display: block;
   width: 100%;
