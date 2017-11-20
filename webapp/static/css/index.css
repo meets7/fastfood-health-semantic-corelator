@@ -177,6 +177,16 @@ body {
   cursor: pointer;
 }
 
+#click2playChart{
+    font-size: 100px;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+#click2playChart:hover{
+  cursor: pointer;
+}
+
 #regions_div1, #chart_div{
   background-color: #f0ffff;
 }
