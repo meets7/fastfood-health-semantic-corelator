@@ -161,3 +161,18 @@ body {
 .active{
   display: all;
 }
+
+#chart_div{
+  height: 500px;
+  width: 100%;
+}
+
+#click2play{
+    font-size: 100px;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+
+#click2play:hover{
+  cursor: pointer;
+}

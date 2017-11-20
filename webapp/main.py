@@ -41,9 +41,12 @@ def getChartData():
         dpArray = [rest_count, popcount, state]
         stateData.append(dpArray)
     statedataJson = json.dumps(stateData)
-    # print(statedataJson)
     return jsonify(statedataJson)
 
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.errorhandler(404)
 def page_not_found(e):

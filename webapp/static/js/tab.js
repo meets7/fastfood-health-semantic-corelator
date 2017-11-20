@@ -90,7 +90,7 @@ function drawAxisTickColors() {
               focusTarget: 'category',
               hAxis: {
                 title: 'Restaurant Count',
-                format: 'h:mm a',
+                format: 'short',
                 viewWindow: {
                   min: [7, 30, 0],
                   max: [17, 30, 0]
@@ -110,6 +110,7 @@ function drawAxisTickColors() {
               },
               vAxis: {
                 title: 'Population Count',
+                format: 'short',
                 textStyle: {
                   fontSize: 18,
                   color: '#67001f',
@@ -140,3 +141,8 @@ function drawAxisTickColors() {
 
     }
 }
+
+$('#click2play').click(function(){
+  $('#click2play').hide();
+  $("#tablink1").click()
+})
