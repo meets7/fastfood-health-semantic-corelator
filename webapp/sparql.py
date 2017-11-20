@@ -1,8 +1,10 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 import queries
+from google.appengine.api import urlfetch
 
 
 def get_query_results(queryname):
+    urlfetch.set_default_fetch_deadline(50)
     sparql = SPARQLWrapper(
         "https://semantic.localtunnel.me/SemanticProject/sparql")
     sparql.setReturnFormat(JSON)
