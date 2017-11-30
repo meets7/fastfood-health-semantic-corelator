@@ -15,7 +15,7 @@ $('.four-oh-four-form').on('submit', function(e){
   var val = $(this).children($('.404-input')).val().toLowerCase();
   var href;
 
-   if (val === 'kittens'){
+   if (val === 'dataisbeautiful'){
     showKittens();
   }else {
     resetForm();
@@ -28,7 +28,7 @@ function resetForm(withKittens){
 
   if (withKittens){
     $('.kittens').removeClass('kittens');
-    message = "Huzzzzzah Kittehs!"
+    message = "Huzzzzzah!"
   }
 
   $('.new-output').removeClass('new-output');
@@ -41,22 +41,22 @@ function resetForm(withKittens){
 }
 
   function showKittens(){
-    $('.terminal').append("<div class='kittens'>"+
-                 "<p class='prompt'>                               ,----,         ,----,                                          ,---,</p>" +
-                 "<p class='prompt'>       ,--.                ,/   .`|       ,/   .`|                     ,--.              ,`--.' |</p>" +
-                 "<p class='prompt'>   ,--/  /|    ,---,     ,`   .'  :     ,`   .'  :     ,---,.        ,--.'|   .--.--.    |   :  :</p>" +
-                 "<p class='prompt'>,---,': / ' ,`--.' |   ;    ;     /   ;    ;     /   ,'  .' |    ,--,:  : |  /  /    '.  '   '  ;</p>" +
-                 "<p class='prompt'>:   : '/ /  |   :  : .'___,/    ,'  .'___,/    ,'  ,---.'   | ,`--.'`|  ' : |  :  /`. /  |   |  |</p>" +
-                 "<p class='prompt'>|   '   ,   :   |  ' |    :     |   |    :     |   |   |   .' |   :  :  | | ;  |  |--`   '   :  ;</p>" +
-                 "<p class='prompt'>'   |  /    |   :  | ;    |.';  ;   ;    |.';  ;   :   :  |-, :   |   \\ | : |  :  ;_     |   |  '</p>" +
-                 "<p class='prompt'>|   ;  ;    '   '  ; `----'  |  |   `----'  |  |   :   |  ;/| |   : '  '; |  \\  \\    `.  '   :  |</p>" +
-                 "<p class='prompt'>:   '   \\   |   |  |     '   :  ;       '   :  ;   |   :   .' '   ' ;.    ;   `----.   \\ ;   |  ;</p>" +
-                 "<p class='prompt'>'   : |.  \\ |   |  '     '   :  |       '   :  |   '   :  ;/| '   : |  ; .'  /  /`--'  /  `--..`;  </p>" +
-                 "<p class='prompt'>|   | '_\\.' '   :  |     ;   |.'        ;   |.'    |   |    \\ |   | '`--'   '--'.     /  .--,_   </p>" +
-                 "<p class='prompt'>'   : |     ;   |.'      '---'          '---'      |   :   .' '   : |         `--'---'   |    |`.  </p>" +
-                 "<p class='prompt'>;   |,'     '---'                                  |   | ,'   ;   |.'                    `-- -`, ; </p>" +
-                 "<p class='prompt'>'---'                                              `----'     '---'                        '---`'</p>" +
-                 "<p class='prompt'>                                                              </p></div>");
+    // $('.terminal').append("<div class='kittens'>"+
+    //              "<p class='prompt'>                               ,----,         ,----,                                          ,---,</p>" +
+    //              "<p class='prompt'>       ,--.                ,/   .`|       ,/   .`|                     ,--.              ,`--.' |</p>" +
+    //              "<p class='prompt'>   ,--/  /|    ,---,     ,`   .'  :     ,`   .'  :     ,---,.        ,--.'|   .--.--.    |   :  :</p>" +
+    //              "<p class='prompt'>,---,': / ' ,`--.' |   ;    ;     /   ;    ;     /   ,'  .' |    ,--,:  : |  /  /    '.  '   '  ;</p>" +
+    //              "<p class='prompt'>:   : '/ /  |   :  : .'___,/    ,'  .'___,/    ,'  ,---.'   | ,`--.'`|  ' : |  :  /`. /  |   |  |</p>" +
+    //              "<p class='prompt'>|   '   ,   :   |  ' |    :     |   |    :     |   |   |   .' |   :  :  | | ;  |  |--`   '   :  ;</p>" +
+    //              "<p class='prompt'>'   |  /    |   :  | ;    |.';  ;   ;    |.';  ;   :   :  |-, :   |   \\ | : |  :  ;_     |   |  '</p>" +
+    //              "<p class='prompt'>|   ;  ;    '   '  ; `----'  |  |   `----'  |  |   :   |  ;/| |   : '  '; |  \\  \\    `.  '   :  |</p>" +
+    //              "<p class='prompt'>:   '   \\   |   |  |     '   :  ;       '   :  ;   |   :   .' '   ' ;.    ;   `----.   \\ ;   |  ;</p>" +
+    //              "<p class='prompt'>'   : |.  \\ |   |  '     '   :  |       '   :  |   '   :  ;/| '   : |  ; .'  /  /`--'  /  `--..`;  </p>" +
+    //              "<p class='prompt'>|   | '_\\.' '   :  |     ;   |.'        ;   |.'    |   |    \\ |   | '`--'   '--'.     /  .--,_   </p>" +
+    //              "<p class='prompt'>'   : |     ;   |.'      '---'          '---'      |   :   .' '   : |         `--'---'   |    |`.  </p>" +
+    //              "<p class='prompt'>;   |,'     '---'                                  |   | ,'   ;   |.'                    `-- -`, ; </p>" +
+    //              "<p class='prompt'>'---'                                              `----'     '---'                        '---`'</p>" +
+    //              "<p class='prompt'>                                                              </p></div>");
 
     
     var lines = $('.kittens p');
@@ -77,7 +77,7 @@ function resetForm(withKittens){
     setTimeout(function(){
       var gif;
 
-      $.get('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=kittens', function(result){
+      $.get('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=dataisbeautiful', function(result){
         gif = result.data.image_url;
         $('.terminal').append('<img class="kitten-gif" src="' + gif + '"">');
         resetForm(true);
